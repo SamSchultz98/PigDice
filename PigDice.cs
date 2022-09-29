@@ -40,10 +40,10 @@ public class PigDice
     {
         long iteration = 0;
         int score = Play();
-        while (score != targetscore)
+        while (score < targetscore)
         {
             iteration++;
-            score = Play();
+            score = Play();     //How much memory does this take up?
         }
         return iteration;
 
@@ -51,24 +51,26 @@ public class PigDice
     }
 
 
+    /////////////////////////////////////////////////////////////////////////////////////////
+public long ReworkedRecordGame(int targetscore) //This runs without calling the function play again
+    {
+        long iteration = 0;
+        int score1 = Play();
+        while (score1 < targetscore)
+        {
+        iteration++;
+            
+        int score = 0;
+        int roll = 0;
+        while ((roll = RollDie()) != 1)
+        {
+            score += roll;
+        }
+        score1 = score;
+
+        }
+        return iteration;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    }
 }

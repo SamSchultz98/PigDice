@@ -11,11 +11,21 @@
 
 // System.Console.WriteLine($"The highest score achieved in {amountofgames} is {highscore}");
 
+//Failed rework
+int dscore = 730;
+// DateTime start = DateTime.Now;
+// long breakingrecordsTest = pigDice.ReworkedRecordGame(dscore);
+// var diff = DateTime.Now - start;
 
-int dscore = 725;
-DateTime start = DateTime.Now;
-long breakingrecords = pigDice.RecordGame(dscore);
-var diff = DateTime.Now - start;
+// System.Console.WriteLine($"it took the new function {breakingrecordsTest} and elapsed {diff} to meet the score of {dscore}");
 
-System.Console.WriteLine($"it took {breakingrecords} and elapsed {diff} to meet the score of {dscore}");
+DateTime starOg = DateTime.Now;
+long breakingrecordsOg = pigDice.RecordGame(dscore);
+var diffOg = DateTime.Now - starOg;
+
+
+System.Console.WriteLine($"it took the original {breakingrecordsOg} and elapsed {diffOg} to meet the score of {dscore}");
+
+
+
 

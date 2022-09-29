@@ -1,0 +1,15 @@
+C:\repos\PigDiceNew\bin\Debug\net6.0\PigDiceNew.exe
+C:\repos\PigDiceNew\bin\Debug\net6.0\PigDiceNew.deps.json
+C:\repos\PigDiceNew\bin\Debug\net6.0\PigDiceNew.runtimeconfig.json
+C:\repos\PigDiceNew\bin\Debug\net6.0\PigDiceNew.dll
+C:\repos\PigDiceNew\bin\Debug\net6.0\PigDiceNew.pdb
+C:\repos\PigDiceNew\obj\Debug\net6.0\PigDiceNew.csproj.AssemblyReference.cache
+C:\repos\PigDiceNew\obj\Debug\net6.0\PigDiceNew.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\PigDiceNew\obj\Debug\net6.0\PigDiceNew.AssemblyInfoInputs.cache
+C:\repos\PigDiceNew\obj\Debug\net6.0\PigDiceNew.AssemblyInfo.cs
+C:\repos\PigDiceNew\obj\Debug\net6.0\PigDiceNew.csproj.CoreCompileInputs.cache
+C:\repos\PigDiceNew\obj\Debug\net6.0\PigDiceNew.dll
+C:\repos\PigDiceNew\obj\Debug\net6.0\refint\PigDiceNew.dll
+C:\repos\PigDiceNew\obj\Debug\net6.0\PigDiceNew.pdb
+C:\repos\PigDiceNew\obj\Debug\net6.0\PigDiceNew.genruntimeconfig.cache
+C:\repos\PigDiceNew\obj\Debug\net6.0\ref\PigDiceNew.dll

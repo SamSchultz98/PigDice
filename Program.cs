@@ -24,8 +24,5 @@ long breakingrecordsOg = pigDice.RecordGame(dscore);
 var diffOg = DateTime.Now - starOg;
 
 
-System.Console.WriteLine($"it took the original {breakingrecordsOg} and elapsed {diffOg} to meet the score of {dscore}");
-
-
-
+System.Console.WriteLine($"it took {breakingrecordsOg} and elapsed {diffOg} iterations to meet the score of {dscore}");
 
